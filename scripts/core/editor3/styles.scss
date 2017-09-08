@@ -405,6 +405,16 @@
 	}
 }
 
+.comment-input {
+	.dropdown__menu {
+		padding: 15px;
+
+		.comment-text {
+			margin-bottom: 10px;
+		}
+	}
+}
+
 .comment-popup {
 	position: fixed;
 	top: 0;
@@ -418,5 +428,6 @@
 
 	&__body {
 		font-style: italic;
+		white-space: pre-wrap;
 	}
 }
